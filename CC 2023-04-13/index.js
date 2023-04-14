@@ -13,4 +13,4 @@ var summation = function (num) {
     return sum;
   }
 
-  console.log(summation(7))
+  console.log(summation)
