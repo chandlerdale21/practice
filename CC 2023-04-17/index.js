@@ -11,3 +11,5 @@ function convertNum (string){
     return Number(string)
 }
 console.log(convertNum('7'))
+
+///parseInt is another method that can be used besides Number
