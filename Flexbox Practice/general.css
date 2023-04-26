@@ -1,0 +1,38 @@
+.thumbnail {
+    width: 300px;
+    height: 200px;
+    object-position: contain;
+   } 
+   img{
+    border-radius: 10px;
+   }
+
+   .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+   .info{
+    display: inline-block;
+    width: 200px;
+   }
+   .profile1{
+    display: inline-block;
+    width: 50px;
+    vertical-align: top;
+    margin-top: 10px;
+   }
+   .profile-pic {
+    border-radius: 40px;
+   }
+   .video-author,.video-stats {
+    font-family: "roboto";
+   }
+   .video-title {
+    font-family: "roboto";
+    font-weight: 500;
+    line-height:20px;
+   }
+.test {
+    margin-left:50px;
+    margin-top:15px;
+}

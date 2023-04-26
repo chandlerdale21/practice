@@ -1,0 +1,73 @@
+.header {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-section{
+    width:300px;
+    margin-left: 20px;
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    flex:1;
+    margin-left: 250px;
+    margin-right: 35px;
+    vertical-align: top;
+    width: 200px;
+}
+
+.right-section {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.hamburger {
+    height:25px;
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.youtube {
+    height:35px;
+    width: 120px;
+    border-radius: 0px;
+}
+.voice {
+    height: 40px;
+    width:45px;
+    border-radius: 22px;
+    border: none;
+    
+}
+.searchButton {
+    height:38px;
+    width: 45px;
+    background-color: rgb(247, 243, 243);
+    border: 1px solid rgb(192,192,192);
+    margin-left: -1px;
+    margin-right: 8px;
+}
+.search {
+    height: 34px;
+    padding-left: 26px;
+    font-size:16px;
+    border: 1px solid rgb(203, 200, 200);
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,.05);
+    outline: none;
+    width:300px;
+}
+.search::placeholder{
+    font-family: "roboto";
+    font-size:16px;
+}
+.icons {
+    height: 30px;
+    width: 30px;
+   }
+
